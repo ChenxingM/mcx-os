@@ -8,7 +8,7 @@
 KERNEL_OFFSET equ 0x1000    ; 内核加载到这个地址
 
 start:
-    ; 设置段寄存器(　レジスターの設定　)
+    ; 设置段寄存器
     xor ax, ax
     mov ds, ax
     mov es, ax
